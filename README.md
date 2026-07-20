@@ -133,6 +133,272 @@ Use this section to document the experiments you ran. For example:
 - What happened when you added tempo or valence to the score
 - How did your system behave for different types of users
 
+```
+Tried a few different user profiles and got the following results:
+
+Top Recommendations for Upbeat Pop Fan
+========================================
+
+1. Sunrise City  (Score: 4.97)
+   - Genre matches your favorite (pop)
+   - Mood matches your favorite (happy)
+   - Energy (0.82) is close to your target (0.8)
+   - Matches your acoustic preference
+
+2. Gym Hero  (Score: 3.80)
+   - Genre matches your favorite (pop)
+   - Energy (0.93) is close to your target (0.8)
+   - Matches your acoustic preference
+
+3. Rooftop Lights  (Score: 2.94)
+   - Mood matches your favorite (happy)
+   - Energy (0.76) is close to your target (0.8)
+   - Matches your acoustic preference
+
+4. Night Drive Loop  (Score: 1.92)
+   - Energy (0.75) is close to your target (0.8)
+   - Matches your acoustic preference
+
+5. Storm Runner  (Score: 1.83)
+   - Energy (0.91) is close to your target (0.8)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Lofi Chill Seeker
+========================================
+
+1. Library Rain  (Score: 4.92)
+   - Genre matches your favorite (lofi)
+   - Mood matches your favorite (chill)
+   - Energy (0.35) is close to your target (0.3)
+   - Matches your acoustic preference
+
+2. Midnight Coding  (Score: 4.82)
+   - Genre matches your favorite (lofi)
+   - Mood matches your favorite (chill)
+   - Energy (0.42) is close to your target (0.3)
+   - Matches your acoustic preference
+
+3. Focus Flow  (Score: 3.85)
+   - Genre matches your favorite (lofi)
+   - Energy (0.4) is close to your target (0.3)
+   - Matches your acoustic preference
+
+4. Spacewalk Thoughts  (Score: 2.97)
+   - Mood matches your favorite (chill)
+   - Energy (0.28) is close to your target (0.3)
+   - Matches your acoustic preference
+
+5. Coffee Shop Stories  (Score: 1.90)
+   - Energy (0.37) is close to your target (0.3)
+   - Matches your acoustic preference
+
+
+Top Recommendations for High-Energy Rock Fan
+========================================
+
+1. Storm Runner  (Score: 4.98)
+   - Genre matches your favorite (rock)
+   - Mood matches your favorite (intense)
+   - Energy (0.91) is close to your target (0.9)
+   - Matches your acoustic preference
+
+2. Gym Hero  (Score: 2.96)
+   - Mood matches your favorite (intense)
+   - Energy (0.93) is close to your target (0.9)
+   - Matches your acoustic preference
+
+3. Sunrise City  (Score: 1.88)
+   - Energy (0.82) is close to your target (0.9)
+   - Matches your acoustic preference
+
+4. Rooftop Lights  (Score: 1.79)
+   - Energy (0.76) is close to your target (0.9)
+   - Matches your acoustic preference
+
+5. Night Drive Loop  (Score: 1.77)
+   - Energy (0.75) is close to your target (0.9)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Relaxed Ambient Listener
+========================================
+
+1. Spacewalk Thoughts  (Score: 3.97)
+   - Genre matches your favorite (ambient)
+   - Energy (0.28) is close to your target (0.3)
+   - Matches your acoustic preference
+
+2. Coffee Shop Stories  (Score: 2.90)
+   - Mood matches your favorite (relaxed)
+   - Energy (0.37) is close to your target (0.3)
+   - Matches your acoustic preference
+
+3. Library Rain  (Score: 1.92)
+   - Energy (0.35) is close to your target (0.3)
+   - Matches your acoustic preference
+
+4. Focus Flow  (Score: 1.85)
+   - Energy (0.4) is close to your target (0.3)
+   - Matches your acoustic preference
+
+5. Midnight Coding  (Score: 1.82)
+   - Energy (0.42) is close to your target (0.3)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Contradictory Preferences
+========================================
+
+1. Storm Runner  (Score: 3.48)
+   - Genre matches your favorite (rock)
+   - Energy (0.91) is close to your target (0.9)
+
+2. Midnight Coding  (Score: 2.28)
+   - Mood matches your favorite (chill)
+   - Energy (0.42) is close to your target (0.9)
+   - Matches your acoustic preference
+
+3. Library Rain  (Score: 2.17)
+   - Mood matches your favorite (chill)
+   - Energy (0.35) is close to your target (0.9)
+   - Matches your acoustic preference
+
+4. Spacewalk Thoughts  (Score: 2.07)
+   - Mood matches your favorite (chill)
+   - Energy (0.28) is close to your target (0.9)
+   - Matches your acoustic preference
+
+5. Gym Hero  (Score: 1.46)
+   - Energy (0.93) is close to your target (0.9)
+
+
+Top Recommendations for Nonexistent Mood
+========================================
+
+1. Sunrise City  (Score: 3.97)
+   - Genre matches your favorite (pop)
+   - Energy (0.82) is close to your target (0.8)
+   - Matches your acoustic preference
+
+2. Gym Hero  (Score: 3.80)
+   - Genre matches your favorite (pop)
+   - Energy (0.93) is close to your target (0.8)
+   - Matches your acoustic preference
+
+3. Rooftop Lights  (Score: 1.94)
+   - Energy (0.76) is close to your target (0.8)
+   - Matches your acoustic preference
+
+4. Night Drive Loop  (Score: 1.92)
+   - Energy (0.75) is close to your target (0.8)
+   - Matches your acoustic preference
+
+5. Storm Runner  (Score: 1.83)
+   - Energy (0.91) is close to your target (0.8)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Nonexistent Genre
+========================================
+
+1. Coffee Shop Stories  (Score: 2.90)
+   - Mood matches your favorite (relaxed)
+   - Energy (0.37) is close to your target (0.3)
+   - Matches your acoustic preference
+
+2. Spacewalk Thoughts  (Score: 1.97)
+   - Energy (0.28) is close to your target (0.3)
+   - Matches your acoustic preference
+
+3. Library Rain  (Score: 1.92)
+   - Energy (0.35) is close to your target (0.3)
+   - Matches your acoustic preference
+
+4. Focus Flow  (Score: 1.85)
+   - Energy (0.4) is close to your target (0.3)
+   - Matches your acoustic preference
+
+5. Midnight Coding  (Score: 1.82)
+   - Energy (0.42) is close to your target (0.3)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Extreme/Out-of-Range Energy
+========================================
+
+1. Storm Runner  (Score: 4.12)
+   - Genre matches your favorite (rock)
+   - Mood matches your favorite (intense)
+   - Energy (0.91) is close to your target (1.5)
+   - Matches your acoustic preference
+
+2. Gym Hero  (Score: 2.15)
+   - Mood matches your favorite (intense)
+   - Energy (0.93) is close to your target (1.5)
+   - Matches your acoustic preference
+
+3. Sunrise City  (Score: 0.98)
+   - Energy (0.82) is close to your target (1.5)
+   - Matches your acoustic preference
+
+4. Rooftop Lights  (Score: 0.89)
+   - Energy (0.76) is close to your target (1.5)
+   - Matches your acoustic preference
+
+5. Night Drive Loop  (Score: 0.88)
+   - Energy (0.75) is close to your target (1.5)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Case-Sensitivity Trap
+========================================
+
+1. Sunrise City  (Score: 1.97)
+   - Energy (0.82) is close to your target (0.8)
+   - Matches your acoustic preference
+
+2. Rooftop Lights  (Score: 1.94)
+   - Energy (0.76) is close to your target (0.8)
+   - Matches your acoustic preference
+
+3. Night Drive Loop  (Score: 1.92)
+   - Energy (0.75) is close to your target (0.8)
+   - Matches your acoustic preference
+
+4. Storm Runner  (Score: 1.83)
+   - Energy (0.91) is close to your target (0.8)
+   - Matches your acoustic preference
+
+5. Gym Hero  (Score: 1.80)
+   - Energy (0.93) is close to your target (0.8)
+   - Matches your acoustic preference
+
+
+Top Recommendations for Null/Empty Profile
+========================================
+
+1. Night Drive Loop  (Score: 1.62)
+   - Energy (0.75) is close to your target (0.5)
+   - Matches your acoustic preference
+
+2. Rooftop Lights  (Score: 1.61)
+   - Energy (0.76) is close to your target (0.5)
+   - Matches your acoustic preference
+
+3. Sunrise City  (Score: 1.52)
+   - Energy (0.82) is close to your target (0.5)
+   - Matches your acoustic preference
+
+4. Storm Runner  (Score: 1.39)
+   - Energy (0.91) is close to your target (0.5)
+   - Matches your acoustic preference
+
+5. Midnight Coding  (Score: 1.38)
+   - Energy (0.42) is close to your target (0.5)
+
+```
+
 ---
 
 ## Limitations and Risks
